@@ -53,6 +53,7 @@
         <div class="container">
             <form action="SimuladorCalidadAgua" method="get">
             <h1>Monitor de Calidad de Agua - Comunidad XYZ</h1>
+            
             <div class="sensor">
                 <h2>Temperatura</h2>
                 <p id="temperatura">${temperatura} °C</p>
@@ -65,7 +66,7 @@
                 <h2>pH</h2>
                 <p id="ph">${ph}</p>
             </div>
-        <a href="SimuladorCalidadAgua" class="btn" id="actualizarBtn" onclick="bloquearBoton()">Actualizar</a>
+        <a href="SimuladorCalidadAgua" class="btn" id="actualizarBtn" onclick="bloquearBoton()">Obtener datos</a>
             </form>
         </div>
             <script>
@@ -78,7 +79,7 @@
                 }
 
                 // Llama a la función actualizarPagina cada 10 segundos
-                setInterval(actualizarPagina, 5000); // 10000 milisegundos = 10 segundos
+                setInterval(actualizarPagina, 5000); // 5000 milisegundos = 5 segundos
             </script>
     </body>
 </html>

@@ -28,7 +28,7 @@ public class SimuladorCalidadAgua extends HttpServlet {
         super.init();
         //iniciamos la lectura de los sensores (simulados)
         actualizarSensores();
-        // Creamos un temporizador para actualizar los sensores cada 10 segundos
+        // Creamos un temporizador para actualizar los sensores cada 5 segundos
         new java.util.Timer().schedule(
             new java.util.TimerTask() {
             @Override
@@ -37,13 +37,11 @@ public class SimuladorCalidadAgua extends HttpServlet {
             }
             },
                 0, //Empezar de inmediato
-                5 * 1000 //Actualizar cada 10 seg
+                5 * 1000 //Actualizar cada 5 seg
         );
               
     }
     
-
-   
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
