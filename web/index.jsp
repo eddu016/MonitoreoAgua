@@ -28,14 +28,14 @@
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
         Fugiat rerum quasi expedita possimus debitis explicabo mollitia
         cum nobis at veritatis unde corporis placeat dolores, assumenda
-        est, eveniet sapiente odio provident?</p>
+        est, eveniet sapiente odio provident</p>
     </div>
    <div class="wrapper">
     <span class="icon-close">
       <ion-icon name="close"></ion-icon>
     </span>
     <div class="form-box login">
-      <h2>Iniciar Sesión</h2>
+      <h2>Iniciar Sesi?n</h2>
       <form action="DBPG" method="post">
         <div class="input-box">
           <span class="icon"><ion-icon name="mail"></ion-icon></span>
@@ -50,9 +50,9 @@
         <div class="remember-forgot">
           <label><input type="checkbox">
           Recuerdame</label>
-          <a href="#">Olvidaste la contraseña?</a>
+          <a href="#">Olvidaste la contrase?a?</a>
         </div>
-        <button type="submit" class="btn">Iniciar sesión</button>
+        <button type="submit" class="btn">Iniciar sesi?n</button>
         <div class="login-register">
           <p>No tienes cuenta? <a href="#"
              class="register-link"> Registrate!</a></p>
@@ -61,7 +61,7 @@
     </div>
 
     <div class="form-box register">
-    <h2>Regístrate</h2>
+    <h2>Reg?strate</h2>
     <form action="registro" method="post">
         <div class="input-box">
             <span class="icon">
@@ -87,12 +87,12 @@
         <div class="remember-forgot">
             <label>
                 <input type="checkbox" required>
-                Acepto los términos y condiciones
+                Acepto los t?rminos y condiciones
             </label>
         </div>
         <button type="submit" class="btn">Registrarse</button>
         <div class="login-register">
-            <p>¿Ya tienes una cuenta? <a href="#" class="login-link">¡Inicia sesión!</a></p>
+            <p>?Ya tienes una cuenta? <a href="#" class="login-link">?Inicia sesi?n!</a></p>
         </div>
     </form>
 </div>
@@ -169,7 +169,7 @@
         neque natus, sint voluptatibus illum rerum voluptas modi expedita, 
         repudiandae repellendus similique odio ratione culpa!</p>
       <div class="layer">
-        <h3>Vertido de desechos domésticos</h3>
+        <h3>Vertido de desechos dom?sticos</h3>
       </div>
     </div>
     <div class="consejos-col">
@@ -179,7 +179,7 @@
         neque natus, sint voluptatibus illum rerum voluptas modi expedita, 
         repudiandae repellendus similique odio ratione culpa!</p>
       <div class="layer">
-        <h3>Derrames de petróleo y combustibles</h3>
+        <h3>Derrames de petr?leo y combustibles</h3>
       </div>
   </div>
 </section>
