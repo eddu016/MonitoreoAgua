@@ -38,7 +38,7 @@ public class DBPG extends HttpServlet {
             // Consulta para obtener el usuario, contraseña y rol
             String query = "SELECT usuario, email, password, rol FROM usuarios WHERE email = ?";
             ps = con.prepareStatement(query);
-            ps.setString(1, request.getParameter("email")); // Suponiendo que recibes el nombre de usuario del formulario
+            ps.setString(1, request.getParameter("email")); // Recibes el email del formulario
             rs = ps.executeQuery();
             
             if (rs.next()) {
@@ -48,7 +48,7 @@ public class DBPG extends HttpServlet {
                 String dbRole = rs.getString("rol");
                 
                 // Verificar si la contraseña coincide y redirigir según el rol
-                if (dbPassword.equals(request.getParameter("password"))) { // Suponiendo que recibes la contraseña del formulario
+                if (dbPassword.equals(request.getParameter("password"))) { // Recibe la contraseña del formulario
                     HttpSession session = request.getSession();
                     session.setAttribute("usuario", dbUser);
                     if (dbRole.equals("Admin")) {
